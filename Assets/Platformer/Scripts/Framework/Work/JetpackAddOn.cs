@@ -128,7 +128,7 @@ namespace Blocks.Gameplay.Platformer
 
         float fuelNeeded = jetpackAbility.FuelCost * Time.deltaTime;
 
-        if (!m_StatsHandler.TryConsumeStat(StatKeys.JetpackFuel, fuelNeeded, OwnerClientId))
+        if (!m_StatsHandler.TryConsumeStat(StatKeys.jetpack, fuelNeeded, OwnerClientId))
         {
             HandleReleased();
         }
