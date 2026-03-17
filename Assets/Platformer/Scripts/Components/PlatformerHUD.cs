@@ -59,7 +59,7 @@ namespace Blocks.Gameplay.Platformer
                         m_CoinsLabel.text = $"Coins: {payload.currentValue:F0}";
                     }
                     break;
-                case "JetpackFuel":
+                case "Jetpack Fuel":
                     if (m_PlayerJetpackFuelBar != null)
                     {
                         m_PlayerJetpackFuelBar.highValue = payload.maxValue;
